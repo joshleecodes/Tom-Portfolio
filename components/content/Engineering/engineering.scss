@@ -1,0 +1,56 @@
+.module-container {
+    width: 15vw;
+    padding-right: $xl;
+}
+
+.label-wrapper {
+    display: block;
+    width: inherit;
+    height: 3vh;
+}
+
+.percentage-wrapper {
+    display: flex;
+    width: 7vw;
+    height: 100%;
+    float: right;
+    justify-content: center;
+    background-color: rgba(255,131,5,0.8);
+
+}
+
+.percentage-wrapper h3 {
+    color: white;
+    margin: 5% 0 0 0;
+    font-size: 0.8em;
+}
+
+.level-wrapper {
+    background-color: rgba(255,131,5,0.8);
+    height: 5vh;
+    padding-top: 2%;
+}
+
+.level-wrapper h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.module-list {
+    margin: 0;
+    padding: 1.5vh 1.5vw;
+}
+
+.module {
+    padding: 0.5vw 0;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+    
+.modules-wrapper {
+    background-color:rgba(0,0,0,0.8);
+    border: solid 2px rgba(255,131,5,0.8);
+    border-top: none;
+}

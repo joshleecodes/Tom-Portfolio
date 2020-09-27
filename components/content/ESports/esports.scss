@@ -1,0 +1,78 @@
+.ESports-achievments-title__wrapper {
+    background-color: rgba(255,131,5,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $xs $s;
+}
+
+.ESports-achievments-title{
+    margin: 0;
+}
+
+.ESports-achievments__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 40vh;
+    background-color: rgba(0,0,0,0.8);
+    border-top: 2px solid rgba(255,131,5,0.8);
+    padding: $m;
+}
+
+.achievments-left {
+    border-right: 2px solid white;
+    height: inherit;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.achievements-right {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.achievement-item {
+    display: flex;
+    flex-direction: row;
+    padding: $xs 0;
+}
+
+.achievement-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.achievement-text-wrapper p {
+    margin: 0;
+}
+
+.achievement-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: $orange;
+}
+
+.achievement-info {
+    font-weight: lighter;
+}
+
+.ESports-achievments__liquipedia {
+    background-color: rgba(0,0,0,0.8);
+    margin: 0;
+    padding: $xs;
+    border-top: 2px solid white;
+}
+
+.ESports-achievments__liquipedia:hover { 
+    color: $orange;
+    border-top: 2px solid $orange;
+}

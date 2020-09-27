@@ -1,0 +1,29 @@
+.about-content {
+    align-items: center;
+}
+.about-text-content {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding-right: $xxl;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.8);
+    border-top: 2px solid rgba(255,131,5,0.8);
+    padding: $s;
+}
+
+.about-photo {
+    width: 22vw;
+}
+
+.content__title {
+    background-color: rgba(255,131,5,0.8);
+    margin: 0;
+    padding: $xs $s;
+    width: fit-content;
+    color: white;
+}
